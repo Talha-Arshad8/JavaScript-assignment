@@ -1,0 +1,12 @@
+*{
+background-image: url(https://static.frontendmasters.com/assets/courses/2023-01-12-background-javascript/thumb.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+h1{
+    text-shadow: 2px 2px 2px white;
+}
