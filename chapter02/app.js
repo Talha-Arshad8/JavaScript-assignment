@@ -27,5 +27,8 @@ alert(email)
 var book = "A smarter way to learn JavaScript"
 alert(book)
 
+//q6 alert one js
+
+alert("PIZZA \nPIZZ \nPIZ \nPI \nP")
 
 
