@@ -31,4 +31,7 @@ alert(book)
 
 alert("PIZZA \nPIZZ \nPIZ \nPI \nP")
 
+//q7
+var write = "I can write HTML through javascript"
 
+document.write(`<b>Yah!</b> ${write}`)
