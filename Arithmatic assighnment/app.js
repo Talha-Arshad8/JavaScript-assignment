@@ -11,6 +11,14 @@ var d = 3
 var exponantiation = c ** d
 console.log(exponantiation)
 
+//q2
+var a = 15
+var b = 4
+var dNum = a + 10
+var eNum = b - 2
+var fNum = dNum * eNum
+console.log(fNum)
+
 //q5
 
 var g = 20
@@ -34,3 +42,51 @@ var k = 18
 var l = 5
 var subtract  = k - l + 2
 console.log(subtract )
+
+//q8
+var m = 7
+var n = 2
+var square = m ** n
+console.log(square)
+
+//q9
+var o = 13
+var p = 4
+var number = o % (p + 2)
+console.log(number)
+
+//q10
+
+var q = 16
+var r = 3
+var num = q / 2 
+var tNum = num * r
+console.log(num)
+console.log(tNum)
+
+//q11
+var s = 25
+var t = 3
+var numb = s - 1
+var numbe = numb / t
+console.log(numbe)
+
+//q12
+
+var u = 11
+var v = 3
+var Result = u - (v + 2)
+console.log(Result)
+
+//q14
+
+var y = 19
+var z = 4
+var modula = y % (z + 1)
+console.log(modula)
+
+//q15
+var a = 10
+var b = 3
+var result = a * (b - 2)
+console.log(result)
