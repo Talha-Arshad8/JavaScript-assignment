@@ -88,14 +88,26 @@
 //     console.log(`Are you not eligible for vote`)
 // }
 
-var num = prompt(`Enter a number under 10 and check it`)
+// var num = prompt(`Enter a number under 10 and check it`)
 
-if(num < 5){
-    console.log(`Small`)
-}
-else if(num >= 5 && num <= 10){
-    console.log(`Medium`)
-}
-else{
-    console.log(`large`)
+// if(num < 5){
+//     console.log(`Small`)
+// }
+// else if(num >= 5 && num <= 10){
+//     console.log(`Medium`)
+// }
+// else{
+//     console.log(`large`)
+// }
+
+
+
+
+var pass = prompt("Enter your password")
+var confirmPass = prompt('Re-Enter password')
+
+if(pass === confirmPass){
+    console.log(`Login`)
+}else{
+    alert(`invalid`)
 }

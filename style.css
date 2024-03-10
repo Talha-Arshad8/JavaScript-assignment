@@ -8,8 +8,13 @@ background-size: cover;
 a{
     text-decoration: none;
     color:white;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: 1px 1px 2px black;
     font-size: 15px;
+}
+a:hover{
+    color: aliceblue;
+    transition: 0.6s;
+    text-decoration: none;
 }
 h1{
     text-shadow: 2px 2px 2px white;
@@ -22,11 +27,12 @@ h3{
 }
 p{
     border: 1px solid black;
-    height: 30px;
-    width: 200px;
+    border: transparent;
+    height: 40px;
+    width: 270px;
     text-align: center;
     border-radius: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
     background-color: rgba(29, 214, 214, 0.4);
     cursor: pointer;
 }
