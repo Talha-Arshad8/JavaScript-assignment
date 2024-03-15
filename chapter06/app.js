@@ -111,3 +111,8 @@ if(pass === confirmPass){
 }else{
     alert(`invalid`)
 }
+
+// var temperature = +prompt("Enter a temperaature centigrade")
+
+// var calc = temperature * 9 / 5 + 32
+// console.log(calc)
