@@ -19,11 +19,21 @@ var eNum = b - 2
 var fNum = dNum * eNum
 console.log(fNum)
 
+//q4
+
+var e = 10;
+var f = 3;
+e += f * 2
+console.log(e);
+
+
 //q5
 
 var g = 20
 var h = 4
 var divide = g / h 
+
+
 //after 5 add in g
 var add = g + 5 / h
 console.log(divide)
@@ -84,6 +94,13 @@ var y = 19
 var z = 4
 var modula = y % (z + 1)
 console.log(modula)
+
+//q13
+
+var w = 22;
+var x = 5;
+result = w + (x**2)
+console.log(result);
 
 //q15
 var a = 10

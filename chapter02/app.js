@@ -10,6 +10,10 @@ alert(UserName)
 var FullName = "Talha Arshad"
 alert(FullName)
 
+//q3
+
+var age = "15 year old"
+alert(age)
 //q3 hello worls showing
 
 

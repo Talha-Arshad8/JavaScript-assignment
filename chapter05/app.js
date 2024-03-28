@@ -57,3 +57,42 @@ console.log(newvalue)
 var counter = 8
 var counter = counter--
 console.log(counter)
+
+//concenating Exersice
+
+//q1
+
+var firstName = "john"
+var concenate = 'Doe'
+
+document.write(`${firstName} ${concenate}`)
+
+//q2
+var city = "New"
+var next = "york"
+console.log(city+next);
+
+//q3
+
+var fruit  = "apple"
+var newA = "pie"
+console.log(fruit+newA);
+
+//q4
+
+var animal = "black"
+var concenate = "birds"
+console.log(animal+concenate);
+
+//q5
+
+var word = "javascript"
+var com = "is fun"
+console.log(word + com);
+
+//q6
+
+var concenate = "open"
+var pop = "source"
+var and = "Intelligence"
+console.log(concenate+pop+and);
