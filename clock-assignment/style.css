@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.clock-container{
+    height: 400px;
+    width: 400px;
+    border: 10px solid darkcyan;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+
+}
+.point{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:190px;
+    left:192px;
+}
+.hour{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+}
+.hour-1{
+    top: 45px;
+    right: 100px;
+}
+.hour-2{
+    top: 100px;
+    right: 55px;
+}
+.hour-3{
+    top: 170px;
+    right: 35px;
+}
+.hour-4{
+    top: 240px;
+    right: 50px;
+}
+.hour-5{
+    top: 310px;
+    right: 95px;
+}
+.hour-6{
+    top: 340px;
+    right: 190px;
+}
+.hour-7{
+    top: 320px;
+    right: 270px;
+}
+.hour-8{
+    top: 265px;
+    right: 330px;
+}
+.hour-9{
+    top: 190px;
+    right: 350px;
+}
+.hour-10{
+    top: 110px;
+    right: 320px;
+}
+.hour-11{
+    top: 50px;
+    right: 270px;
+}
+.hour-12{
+    top: 20px;
+    right: 180px;
+}
+.name{
+    position: absolute;
+    top: 75px;
+    right: 165px;
+    font-weight: bold;
+    color:lightpink;
+}
+.minute-hand-wraper{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+
+}
+.minute-hand{
+    position: relative;
+}
+.hand{
+    width: 4px;
+    height: 140px;
+    background-color: rgb(0, 0, 44);
+    position: absolute;
+    left: 130px;
+}
+.minute-hand>.arrow{
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 126px;
+    top: -7px;
+}
+.hour-hand-wraper{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+.hour-hand{
+    position: relative;
+}
+.hour-hand .hand{
+    width: 4px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 130px;
+    top: 20px;
+}
+.hour-hand>.arrow{
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 126px;
+    top: 10px;
+}
+.second-hand .hand{
+    width: 2px;
+    height:150px;
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}

@@ -81,7 +81,7 @@ console.log(fruit+newA);
 //q4
 
 var animal = "black"
-var concenate = "birds"
+var concatenate = "birds"
 console.log(animal+concenate);
 
 //q5

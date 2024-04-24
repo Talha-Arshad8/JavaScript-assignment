@@ -42,8 +42,8 @@
 // for (var t = 1; t <= 3; t++) {
 //     console.log(t + 1);
 // }
-var num = [3, 2, 5, 9]
-var largenum = 0;
-for (var i = 0; i < num.length; i++){
-    console.log(num[i]);
-}
+
+// var sum = 5;
+// for(i = 1; i <= 5; i++){
+//     console.log(sum * i);
+// }
