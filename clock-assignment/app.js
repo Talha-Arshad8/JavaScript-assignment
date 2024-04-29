@@ -1,13 +1,10 @@
-var second = 0;
-var minute = 0;
-var hour = 0;
-var d = newDate();
-setInterval(
-    function(){
-        d = newDate();
-        second = d.getseconds() * 6;
-        minute = d.getminutes();
-        hour = d.gethours();
-        document.getElementById("second-hand").style.transform = "rotate (" + second + "deg)";
-    }, 1000
-);
+setInterval(() => {
+    date = new Date();
+    htime = d.gethours();
+    mtime = d.getminutes();
+    stime = d.getseconds();
+    hrotation = 30 * htime + mtime/2;
+    mrotation = 6 * mtime;
+    srotation = 6 * stime;
+    hand.style.transform = `rotate (${hrotation}deg)`
+}, 1000)
