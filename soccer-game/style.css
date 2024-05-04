@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://st4.depositphotos.com/1741969/29457/i/450/depositphotos_294571810-stock-photo-blackground-of-abstract-glitter-lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    height: 550px;
+    width: 550px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background-color: rgb(249, 238, 222);
+}
+
+.time-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+}
+
+.min {
+    height: 80px;
+    width: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.start{
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.start:hover{
+background-color: aquamarine;
+}
+
+.sec {
+    height: 80px;
+    width: 70px;
+    background-color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.start-time:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.start-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.player1 {
+    height: 40px;
+    width: 120px;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player2 {
+    height: 40px;
+    width: 120px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.score-1 {
+    height: 120px;
+    width: 180px;
+    border: 1px solid transparent;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.score-2 {
+    height: 120px;
+    width: 180px;
+    border: 1px solid transparent;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.increment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.increment-1 {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.increment-2 {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border: 1px solid transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.increment-1:hover {
+    background-color: red;
+}
+
+.increment-2:hover {
+    background-color: red;
+}
