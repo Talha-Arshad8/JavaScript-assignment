@@ -28,7 +28,7 @@ body {
 
 .min {
     height: 80px;
-    width: 70px;
+    width: 100px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -46,18 +46,6 @@ body {
 }
 .start:hover{
 background-color: aquamarine;
-}
-
-.sec {
-    height: 80px;
-    width: 70px;
-    background-color: white;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
 }
 
 .start-time:hover {
