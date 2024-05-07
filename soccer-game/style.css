@@ -24,6 +24,11 @@ body {
 .time-container {
     display: flex;
     justify-content: center;
+
+}
+input{
+    width: 250px;
+    height: 30px;
 }
 
 .min {
